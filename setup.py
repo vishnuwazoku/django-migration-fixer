@@ -84,6 +84,7 @@ setup(
         "Framework :: Django :: 3.0",
         "Framework :: Django :: 3.1",
         "Framework :: Django :: 3.2",
+        "Framework :: Django :: 4.2",
     ],
     description="Resolve migration errors",
     install_requires=install_requires,
@@ -111,6 +112,6 @@ setup(
         "Source": "https://github.com/tj-django/django-migration-fixer",
         "Documentation": "https://tj-django.github.io/django-migration-fixer",
     },
-    version="1.3.6",
+    version="1.3.7",
     zip_safe=False,
 )
